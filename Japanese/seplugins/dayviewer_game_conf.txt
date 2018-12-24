@@ -1,0 +1,56 @@
+# 設定ファイル
+
+# HOME画面に表示させる文字列を設定できます
+# 変換用のパラメータはReadme.txtを参考にしてください
+# %% = %, \ = 改行
+[format] = %year %weekday %month/%day %hour12:%min:%sec %batpercent%%(%batlifehour:%batlifemin)
+
+# 文字列を標準の位置に配置する
+# 1 = 有効, 0 = 無効
+# 有効にしている場合はx_pos, y_pos, alignment, hide_battery_iconの数値は無視されます
+[set_standard_pos] = 0
+
+# 表示位置のX軸の位置
+[x_pos] = 0
+
+# 表示位置のY軸の位置
+[y_pos] = 35
+
+# 文字列を中央か右に寄せるか指定できます
+# 0 = 無効, 1 = 右寄せ, 2 = 中央
+# 有効にしている場合はx_posの数値は無視されます
+[alignment] = 1
+
+# バッテリーアイコンを非表示にする
+# 1 = 有効, 0 = 無効
+[hide_battery_icon] = 0
+
+# ボタンを押してから3秒後に音量バーを隠すようにする
+# PSP-Goでは使用できません
+# 1 = 有効, 0 = 無効
+[hide_volume_bar] = 1
+
+# 月曜から順に表示したい曜日名を指定する
+[week]
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+
+# 1月から順に表示したい月名を指定する
+[month]
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December

@@ -1,0 +1,55 @@
+# Konfigurationsdatei
+
+# Der Text der im HOME screen angezeigt wird.
+# %% = % Symbol, \ = Neue Zeile.
+[format] = %weekday %day.%month.%year %hour:%min:%sec %batpercent%% (%batlifehour:%batlifemin)
+
+# Text an die standard Position stellen.
+# 1 = Aktiviert, 0 = Deaktiviert.
+# Ist dies aktiviert, ist x_pos, y_pos, align_right und hide_battery_icon deaktiviert.
+[set_standard_pos] = 0
+
+# X-axis Position des Bildschirms.
+[x_pos] = 0
+
+# Y-axis Position des Bildschirms.
+[y_pos] = 35
+
+# Ich kann die Position der Charakterschnur ernennen.
+# 0 = Deaktiviert, 1 = Rechts, 2 = Zentrum.
+# Ist dies aktiviert, ist x_pos deaktiviert.
+[alignment] = 1
+
+# Verstecke das Batterie Symbol.
+# 1 = Aktiviert, 0 = Deaktiviert.
+[hide_battery_icon] = 0
+
+# Die Lautstarkeleiste ist 3 Sekunden nach dem Drucken einer Taste versteckt.
+# Ich bin in PSP-GO nicht verwendbar.
+# 1 = Aktiviert, 0 = Deaktiviert.
+[hide_volume_bar] = 1
+
+# Andere hier die Namen der Wochentage.
+[week]
+Montag
+Dienstag
+Mittwoch
+Donnerstag
+Freitag
+Samstag
+Sonntag
+
+# Andere hier die Namen der Monate.
+[month]
+Januar
+Februar
+Marz
+April
+Mai
+Juni
+Juli
+August
+September
+Oktober
+November
+Dezember
